@@ -43,6 +43,7 @@ output_blobs.sort()
 # print(len(output_blobs[0]))
 with open('note.txt', 'w+', encoding = 'utf-8') as note:
     for i in range(0, len(output_blobs)):
+        # convert int to str, else write() will not accept
         note.write(str(output_blobs[i][0]))
         for j in range(1, 3):
             note.write(output_blobs[i][j])
