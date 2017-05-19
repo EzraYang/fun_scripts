@@ -11,7 +11,7 @@ arr_lines = np.array(lines)
 
 title = '被讨厌的勇气：“自我启发之父”阿德勒的哲学课 ((曰）岸见一郎，（日）古贺史健)\n'
 
-# a tuple containing one numpy array of index
+# a tuple containing one numpy array of index as the only element
 title_index = np.where(arr_lines==title)
 
 # store the np.array of title index in title_index
