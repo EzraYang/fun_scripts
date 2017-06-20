@@ -9,3 +9,8 @@ sort by positional order, and export them to a separate .txt file.
 * `rename_file`:  
 Clean file names, mostly Coursera lecture PDF.  
 Can add separate cleaning functions for other usage.
+
+* `toilet_choosing`:
+simulating the situation of choosing the most hygenic toilet
+in a music festivel.
+A [video](https://www.youtube.com/watch?v=ZWib5olGbQ0) about it. 
