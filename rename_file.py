@@ -9,5 +9,6 @@ def clean_coursera_file(f):
 path = input('Enter the path: ')
 
 for file in os.listdir(path):
-    if (re.search(r'^_[a-z0-9]+_', file) != None) & ( len(re.findall(r'^_[a-z0-9]+_', file)[0]) == 34 ):
-        clean_coursera_file(file)
+    if re.search(r'^_[a-z0-9]+_', file) != None:
+        if len(re.findall(r'^_[a-z0-9]+_', file)[0]) == 34:
+            clean_coursera_file(file)
